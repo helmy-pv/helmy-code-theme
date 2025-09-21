@@ -1,8 +1,8 @@
 {
     "name": "helmy-code-theme",
-    "displayName": "HeLmY CoDe Theme",
-    "description": "HeLmY's favorite color schema for VS Code!",
-    "version": "2.1.3",
+    "displayName": "HeLmY CoDe Themes",
+    "description": "HeLmY's favorite color schemas for VS Code!",
+    "version": "3.0.4",
     "license": "",
     "engines": {
         "vscode": "*"
@@ -13,29 +13,49 @@
     "contributes": {
         "themes": [
             {
-                "label": "HeLmY CoDe",
-                "uiTheme": "vs-dark",
-                "path": "./themes/helmy-code-theme.json"
-            }
+				"label": "HeLmY CoDe",
+				"uiTheme": "vs-dark",
+				"path": "./themes/helmy-code-theme.json"
+			},
+			{
+				"label": "HeLmY CoDe: Zen",
+				"uiTheme": "vs-dark",
+				"path": "./themes/helmy-code-theme-zen.json"
+			},
+			{
+				"label": "HeLmY CoDe: Void",
+				"uiTheme": "vs-dark",
+				"path": "./themes/helmy-code-theme-void.json"
+			}
         ]
     },
     "icon": "icon/helmy-code.png",
     "author": {
         "name": "Helmuth J. Paz Vargas",
-        "email": "helmy.pv.code@gmail.com"
+        "email": "helmy.pv@gmail.com"
     },
     "publisher": "helmy-code",
     "repository": {
         "type": "git",
-        "url": "https://github.com/HeLmY-CoDe/helmy-code-theme.git"
+        "url": "https://github.com/helmy-pv/helmy-code-theme"
     },
     "keywords": [
         "theme",
         "dark theme",
         "helmy",
+        "helmy code",
+        "helmy code theme",
+        "helmy code zen",
+        "helmy code void",
+        "helmy code dark",
         "helmy theme",
+        "helmy theme zen",
+        "helmy theme void",
         "tema oscuro",
         "best theme",
+        "best dark theme",
+        "zen theme",
+        "void theme",
         "best dark theme",
         "best vscode theme",
         "mejor tema",
@@ -43,7 +63,7 @@
         "cool theme",
         "tema cool"
     ],
-    "dependencies": {
-        "@vscode/vsce": "^2.19.0"
+    "devDependencies": {
+        "@vscode/vsce": "^3.2.1"
     }
 }
