@@ -7,3 +7,4 @@
 - HeLmY CoDe
 - HeLmY CoDe: Void
 - HeLmY CoDe: Zen
+- HeLmY CoDe: Soft
