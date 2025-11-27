@@ -26,6 +26,11 @@
 				"label": "HeLmY CoDe: Void",
 				"uiTheme": "vs-dark",
 				"path": "./themes/helmy-code-theme-void.json"
+			},
+			{
+				"label": "HeLmY CoDe: Soft",
+				"uiTheme": "vs-dark",
+				"path": "./themes/helmy-code-theme-soft.json"
 			}
         ]
     },
@@ -47,15 +52,18 @@
         "helmy code theme",
         "helmy code zen",
         "helmy code void",
+        "helmy code soft",
         "helmy code dark",
         "helmy theme",
         "helmy theme zen",
         "helmy theme void",
+        "helmy theme soft",
         "tema oscuro",
         "best theme",
         "best dark theme",
         "zen theme",
         "void theme",
+        "soft theme",
         "best dark theme",
         "best vscode theme",
         "mejor tema",

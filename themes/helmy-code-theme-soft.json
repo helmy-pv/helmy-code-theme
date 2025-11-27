@@ -1,21 +1,21 @@
 {
-	"name": "HeLmY CoDe",
+	"name": "HeLmY CoDe: Soft",
 	"type": "dark",
 	"colors": {
 		"activityBar.activeBackground": "#005f85bb",
 		"activityBar.activeBorder": "#008bb2",
-		"activityBar.background": "#1a4767",
+		"activityBar.background": "#051825",
 		"badge.background": "#1a7396",
-		"breadcrumb.background": "#1a4767cc",
+		"breadcrumb.background": "#1a476777",
 		"breadcrumb.focusForeground": "#eeeeee",
 		"checkbox.background": "#0c1219",
 		"checkbox.border": "#121b25",
-		"debugToolBar.background": "#1a4767",
+		"debugToolBar.background": "#051825",
 		"dropdown.background": "#081722",
 		"dropdown.border": "#121b25",
 		"diffEditor.insertedTextBackground": "#6b961634",
 		"diffEditor.removedTextBackground": "#6210af34",
-		"editor.background": "#011928",
+		"editor.background": "#051825",
 		"editor.findMatchBackground": "#214158bb",
 		"editor.findMatchBorder": "#ffee02AA",
 		"editor.findMatchHighlightBackground": "#ffee0227",
@@ -44,7 +44,7 @@
 		"list.highlightForeground": "#2db6e8",
 		"list.hoverBackground": "#223c4d88",
 		"list.inactiveSelectionBackground": "#024361bd",
-		"menu.background": "#1a4767ee",
+		"menu.background": "#0f2c3fee",
 		"menu.foreground": "#ffffff",
 		"menubar.selectionForeground": "#dddddd",
 		"minimapSlider.background": "#36556a88",
@@ -62,7 +62,7 @@
 		"peekViewTitle.background": "#1f313d",
 		"quickInput.background": "#101e29",
 		"scrollbarSlider.activeBackground": "#2e4c6199",
-		"scrollbarSlider.background": "#1a476799",
+		"scrollbarSlider.background": "#1a476777",
 		"scrollbarSlider.hoverBackground": "#28404f",
 		"settings.checkboxBackground": "#0c1219",
 		"settings.checkboxBorder": "#121b25",
@@ -71,20 +71,20 @@
 		"settings.numberInputBackground": "#0c1219",
 		"settings.textInputBackground": "#0c1219",
 		"sideBar.background": "#051825",
-		"sideBarSectionHeader.background": "#1a4767cc",
-		"statusBar.background": "#008bb2",
-		"statusBarItem.remoteBackground": "#008bb2",
-		"tab.activeBackground": "#285e85",
-		"tab.border": "#1a4767cc",
+		"sideBarSectionHeader.background": "#1a476777",
+		"statusBar.background": "#051825",
+		"statusBarItem.remoteBackground": "#051825",
+		"tab.activeBackground": "#1a476777",
+		"tab.border": "#1a476777",
 		"tab.activeBorderTop": "#008bb2",
 		"tab.inactiveBackground": "#051825",
 		"tab.unfocusedActiveBackground": "#15222b",
 		"tab.unfocusedInactiveBackground": "#051825",
 		"tab.unfocusedActiveBorder": "#5c7485",
 		"terminal.background": "#0c1219",
-		"titleBar.activeBackground": "#1a4767",
+		"titleBar.activeBackground": "#051825",
         "titleBar.activeForeground": "#ffffff",
-        "titleBar.inactiveBackground": "#1a4767",
+        "titleBar.inactiveBackground": "#051825",
         "titleBar.inactiveForeground": "#81a3bb",
 		"tree.indentGuidesStroke": "#2f7eb7",
 		"tree.inactiveIndentGuidesStroke": "#2f7eb777",
@@ -137,7 +137,8 @@
 				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#ff4b5d"
+				"foreground": "#ff5470",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -145,13 +146,13 @@
 				"entity.name.tag"
 			],
 			"settings": {
-				"foreground": "#ff4b5d"
+				"foreground": "#ff5470"
 			}
 		},
 		{
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#ff4b5d"
+				"foreground": "#ff5470"
 			}
 		},
 		{
@@ -192,7 +193,7 @@
 				"punctuation.section.embedded"
 			],
 			"settings": {
-				"foreground": "#4ba5ff"
+				"foreground": "#6bd8ff"
 			}
 		},
 		{
@@ -209,7 +210,7 @@
 				"punctuation"
 			],
 			"settings": {
-				"foreground": "#05bdfa"
+				"foreground": "#6bd8ff"
 			}
 		},
 		{
@@ -233,7 +234,7 @@
 				"variable.other.property.js"
 			],
 			"settings": {
-				"foreground": "#00ddff"
+				"foreground": "#00ccff"
 			}
 		},
 		{
@@ -245,7 +246,7 @@
 				"support.other.namespace.php"
 			],
 			"settings": {
-				"foreground": "#91daff"
+				"foreground": "#B1DFFF"
 			}
 		},
 		{
@@ -300,7 +301,7 @@
 				"brackethighlighter.quote"
 			],
 			"settings": {
-				"foreground": "#ffe777"
+				"foreground": "#ffdf7e"
 			}
 		},
 		{
@@ -340,7 +341,7 @@
 				"variable.parameter"
 			],
 			"settings": {
-				"foreground": "#ffb964"
+				"foreground": "#ffbf75"
 			}
 		},
 		{
@@ -348,7 +349,7 @@
 				"markup.underline"
 			],
 			"settings": {
-				"foreground": "#ffb964",
+				"foreground": "#ffbf75",
 				"fontStyle": "underline"
 			}
 		},

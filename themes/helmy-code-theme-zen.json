@@ -83,9 +83,14 @@
 		"tab.unfocusedActiveBorder": "#5c7485",
 		"terminal.background": "#0c1219",
 		"titleBar.activeBackground": "#011928",
+        "titleBar.activeForeground": "#ffffff",
+        "titleBar.inactiveBackground": "#011928",
+        "titleBar.inactiveForeground": "#81a3bb",
 		"tree.indentGuidesStroke": "#2f7eb7",
 		"tree.inactiveIndentGuidesStroke": "#2f7eb777",
-		"widget.shadow": "#050a0fbb"
+		"widget.shadow": "#050a0fbb",
+		"window.activeBorder": "#011928",
+        "window.inactiveBorder": "#1b3a52"
 	},
 	"tokenColors": [
 		{
@@ -126,11 +131,18 @@
 				"variable.import.parameter.js",
 				"variable.other.class.js",
 				"variable.language",
-				"entity.name.tag",
 				"meta.tag.sgml",
 				"markup.deleted.git_gutter",
 				"support.other.variable",
 				"string.other.link"
+			],
+			"settings": {
+				"foreground": "#ff4b5d"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.tag"
 			],
 			"settings": {
 				"foreground": "#ff4b5d"
@@ -266,6 +278,15 @@
 		},
 		{
 			"scope": [
+				"entity.other.inherited-class"
+			],
+			"settings": {
+				"foreground": "#00ffd0",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
 				"string",
 				"constant.other.symbol",
 				"constant.other.key",
@@ -280,15 +301,6 @@
 			],
 			"settings": {
 				"foreground": "#ffe777"
-			}
-		},
-		{
-			"scope": [
-				"entity.other.inherited-class"
-			],
-			"settings": {
-				"foreground": "#00ffd0",
-				"fontStyle": "italic"
 			}
 		},
 		{
